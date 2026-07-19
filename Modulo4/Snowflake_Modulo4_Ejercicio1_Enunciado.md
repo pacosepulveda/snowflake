@@ -224,20 +224,3 @@ Entrega un documento o capturas que incluyan:
 5. ¿Qué riesgo existe si una secure view expone identificadores secuenciales aunque oculte los nombres?
 
 ---
-
-# Criterios de validación
-
-El ejercicio estará completado correctamente cuando:
-
-- `M4_CONSUMER` consulte ambas vistas.
-- El acceso directo a `CLIENTES_SENSIBLES` sea denegado.
-- La secure view solo muestre clientes activos y datos no identificativos.
-- La definición de la secure view no sea visible para el rol consumidor.
-- Los cambios de la tabla base se reflejen en las vistas.
-- Se explique correctamente la diferencia entre una view estándar y una secure view.
-
----
-
-## Control de consumo
-
-El volumen de datos del ejercicio es mínimo. Utiliza un warehouse `XSMALL` con `AUTO_SUSPEND` habilitado y suspéndelo al finalizar.

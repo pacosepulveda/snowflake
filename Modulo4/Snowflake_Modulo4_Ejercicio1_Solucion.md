@@ -504,22 +504,6 @@ ALTER WAREHOUSE WH_DEV SUSPEND;
 
 ---
 
-# 13. Compatibilidad con la cuenta trial y con la versión actual
-
-Este laboratorio utiliza:
-
-- Views estándar.
-- Secure views.
-- Roles y grants.
-- `SHOW VIEWS`.
-- `GET_DDL`.
-- `INFORMATION_SCHEMA.VIEWS`.
-- Funciones SQL como `SHA2`, `SPLIT_PART`, `LEFT`, `RIGHT` y `REGEXP_REPLACE`.
-
-Todas estas capacidades forman parte de la versión actual de Snowflake y no figuran entre las limitaciones vigentes de las cuentas trial.
-
-Una cuenta trial puede crear warehouses, almacenar datos y ejecutar consultas mientras continúe activa y conserve saldo. El ejercicio utiliza pocas filas y un warehouse `XSMALL`, por lo que su consumo es mínimo.
-
 ## Documentación oficial de referencia
 
 - Secure views: <https://docs.snowflake.com/en/user-guide/views-secure>
@@ -528,7 +512,7 @@ Una cuenta trial puede crear warehouses, almacenar datos y ejecutar consultas mi
 
 ---
 
-# 14. Conclusión
+# 13. Conclusión
 
 El patrón implementado es:
 

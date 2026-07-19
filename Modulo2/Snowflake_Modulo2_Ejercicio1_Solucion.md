@@ -619,23 +619,7 @@ Después, vuelve a ejecutar una sola vez el `INSERT`.
 
 ---
 
-## 15. Confirmación de compatibilidad con la cuenta trial
-
-Este ejercicio es compatible con una cuenta Snowflake Trial y con la plataforma actual por las siguientes razones:
-
-1. La documentación oficial de cuentas trial confirma que permiten iniciar virtual warehouses, cargar datos y ejecutar consultas mientras exista saldo de uso gratuito.
-2. Todos los objetos utilizados son básicos: warehouse, database, schema, table y view.
-3. No se utiliza ninguna característica restringida a una cuenta de pago ni ninguna integración externa.
-4. La sintaxis actual de `CREATE WAREHOUSE` admite `XSMALL`, `AUTO_SUSPEND`, `AUTO_RESUME` e `INITIALLY_SUSPENDED`.
-5. `SYSADMIN` dispone por defecto del privilegio para crear warehouses; el usuario administrador de una cuenta trial puede seleccionar este rol.
-6. El volumen de datos es mínimo y el warehouse se suspende automáticamente, por lo que el consumo del saldo trial es muy pequeño.
-7. El ejercicio funcionaría también en una trial Standard; la edición Enterprise indicada para el curso no introduce ninguna incompatibilidad.
-
-La trial finaliza cuando se alcanza su fecha de caducidad o se agota el saldo gratuito, lo que ocurra primero. El importe promocional exacto puede depender de la oferta aplicada al crear la cuenta; en este curso se parte de cuentas que muestran 400 USD de crédito.
-
----
-
-## 16. Referencias oficiales consultadas
+## 15. Referencias oficiales consultadas
 
 - [Snowflake Documentation - Trial accounts](https://docs.snowflake.com/en/user-guide/admin-trial-account)
 - [Snowflake Documentation - CREATE WAREHOUSE](https://docs.snowflake.com/en/sql-reference/sql/create-warehouse)

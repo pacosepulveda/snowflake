@@ -158,28 +158,4 @@ Suspende explícitamente el warehouse `WH_LAB_M2` al terminar.
 
 No elimines la base de datos ni los esquemas: se reutilizarán en ejercicios posteriores.
 
----
-
-## Criterios de finalización
-
-El ejercicio estará completado cuando puedas demostrar que:
-
-- El contexto de sesión apunta a los objetos correctos.
-- El warehouse tiene el tamaño y las opciones de suspensión solicitadas.
-- Existen los tres esquemas requeridos.
-- La tabla contiene al menos ocho filas válidas.
-- Las consultas de validación devuelven resultados coherentes.
-- La vista diaria agrega correctamente las ventas.
-- El warehouse queda suspendido al finalizar.
-
----
-
-## Evidencias que debes conservar
-
-Guarda en la worksheet todo el SQL utilizado y conserva los resultados de:
-
-1. La consulta del contexto de sesión.
-2. La consulta de ventas por región.
-3. La consulta de la vista `V_VENTAS_DIARIAS`.
-4. El comando que muestra la configuración del warehouse.
 

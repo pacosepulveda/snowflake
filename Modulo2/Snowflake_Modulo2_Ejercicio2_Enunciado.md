@@ -2,7 +2,6 @@
 
 ## Control de acceso con RBAC y mínimo privilegio
 
-**Duración estimada:** 50-70 minutos  
 **Modalidad:** individual  
 **Herramienta:** Snowsight, mediante una SQL Worksheet  
 **Cuenta:** Snowflake Trial, edición Enterprise

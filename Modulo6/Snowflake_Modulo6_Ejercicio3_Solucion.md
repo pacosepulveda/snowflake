@@ -1,8 +1,6 @@
 # Módulo 6 · Ejercicio 3
 ## Solución guiada: construcción idempotente de un data mart mensual
 
-> Todas las instrucciones utilizan **Workspaces**, la experiencia actual de edición SQL de Snowflake.
-
 ---
 
 ## 1. Arquitectura del laboratorio

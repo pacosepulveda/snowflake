@@ -1,4 +1,4 @@
-# Módulo 7 · Ejercicio 2
+# Módulo 7 · Ejercicio 4
 
 ## Solución guiada: pipeline automático con Snowpipe, Amazon S3, streams y triggered tasks
 

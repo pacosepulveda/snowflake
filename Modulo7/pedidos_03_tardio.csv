@@ -1,0 +1,2 @@
+event_id,id_pedido,id_cliente,fecha_pedido,region,producto,cantidad,precio_unitario,estado,fecha_modificacion
+12,9104,2004,2026-07-02,NORTE,Auriculares,2,45.00,PENDIENTE,2026-07-02 09:30:00
